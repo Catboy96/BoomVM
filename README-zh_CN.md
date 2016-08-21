@@ -2,7 +2,7 @@
 一键服务器/VPS程序包部署程序
 
 ## 其他语言的README文件  
-English: https://github.com/CYRO4S/BoomVM/README.md
+English: https://github.com/CYRO4S/BoomVM
 
 ## 链接
 官方网站: https://www.boomvm.com  
