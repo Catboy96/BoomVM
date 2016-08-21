@@ -2,7 +2,7 @@
 One-Key Server/VPS Application Package Deployment Tool
 
 ## Readme in other languages  
-简体中文: https://github.com/CYRO4S/BoomVM/README_zh-CN.md
+简体中文: https://github.com/CYRO4S/BoomVM/README-zh_CN.md
 
 ## Links
 Website: https://www.boomvm.com  
