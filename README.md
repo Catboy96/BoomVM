@@ -26,7 +26,7 @@ Ever imagine deploying application on your new VPS/Server in a few minutes, with
 BoomVM provides an easier way to deploy application on your VPSes/Servers. With BoomVM you can just buy VPS, download a BOM package from Internet and deploy it via BoomVM. Then your VPS is ready to roll.
 
 ## HOW-TOs & Instructions:  
-Using BoomVM: https://www.boomvm.com/16
+Using BoomVM: https://www.boomvm.com/16  
 Making BOM Package: https://www.boomvm.com/20
 
 ## License  
