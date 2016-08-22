@@ -27,8 +27,8 @@ BoomVM给你提供了一个更加简单的安装程序的方式，你只需要�
 随后，享用你安装的程序吧！
 
 ## 使用向导:  
-如何使用BoomVM: https://www.boomvm.com/howto/manual
-如何制作BOM包: https://www.boomvm.com/howto/bom
+如何使用BoomVM: https://www.boomvm.com/16  
+如何制作BOM包: https://www.boomvm.com/20
 
 ## 开放源代码协议
 基于MIT协议开放源代码  
