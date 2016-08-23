@@ -79,12 +79,12 @@ Public Class MainForm
 
     'Deploy
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        DeployForm.Show()
+        DeployForm.ShowDialog()
     End Sub
 
     'Show About Form
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        AboutForm.Show()
+        AboutForm.ShowDialog()
     End Sub
 End Class
 

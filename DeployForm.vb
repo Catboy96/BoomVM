@@ -1,3 +1,4 @@
+Imports System.ComponentModel
 Imports System.Threading
 Imports Renci.SshNet
 
@@ -147,4 +148,8 @@ Public Class DeployForm
 
     End Sub
 
+    'Closing the window
+    Private Sub DeployForm_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        txtMain.Clear()
+    End Sub
 End Class

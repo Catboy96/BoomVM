@@ -37,6 +37,7 @@ Partial Class DeployForm
         Me.txtMain.Multiline = True
         Me.txtMain.Name = "txtMain"
         Me.txtMain.ReadOnly = True
+        Me.txtMain.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.txtMain.Size = New System.Drawing.Size(653, 436)
         Me.txtMain.TabIndex = 0
         '
