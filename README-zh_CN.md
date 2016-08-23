@@ -28,7 +28,11 @@ BoomVM给你提供了一个更加简单的安装程序的方式，你只需要�
 
 ## 使用向导:  
 如何使用BoomVM: https://www.boomvm.com/16  
-如何制作BOM包: https://www.boomvm.com/20
+如何制作BOM包: https://www.boomvm.com/20  
+
+## 配置需求  
+* Visual Studio 2015 或更高版本  
+* .Net 4.0  
 
 ## 开放源代码协议
 基于MIT协议开放源代码  
