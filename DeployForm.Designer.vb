@@ -56,8 +56,6 @@ Partial Class DeployForm
         Me.proMain.Size = New System.Drawing.Size(653, 23)
         Me.proMain.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.proMain.TabIndex = 2
-        Me.proMain.Text = "ProgressBarX1"
-        Me.proMain.Value = 50
         '
         'DeployForm
         '
