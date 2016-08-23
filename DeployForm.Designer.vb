@@ -24,13 +24,16 @@ Partial Class DeployForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DeployForm))
         Me.txtMain = New System.Windows.Forms.TextBox()
+        Me.proMain = New DevComponents.DotNetBar.Controls.ProgressBarX()
         Me.SuspendLayout()
         '
         'txtMain
         '
+        Me.txtMain.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtMain.BackColor = System.Drawing.Color.Black
         Me.txtMain.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.txtMain.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMain.ForeColor = System.Drawing.Color.White
         Me.txtMain.Location = New System.Drawing.Point(0, 0)
@@ -38,14 +41,30 @@ Partial Class DeployForm
         Me.txtMain.Name = "txtMain"
         Me.txtMain.ReadOnly = True
         Me.txtMain.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtMain.Size = New System.Drawing.Size(653, 436)
+        Me.txtMain.Size = New System.Drawing.Size(653, 407)
         Me.txtMain.TabIndex = 0
+        '
+        'proMain
+        '
+        '
+        '
+        '
+        Me.proMain.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.proMain.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.proMain.Location = New System.Drawing.Point(0, 413)
+        Me.proMain.Name = "proMain"
+        Me.proMain.Size = New System.Drawing.Size(653, 23)
+        Me.proMain.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.proMain.TabIndex = 2
+        Me.proMain.Text = "ProgressBarX1"
+        Me.proMain.Value = 50
         '
         'DeployForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(653, 436)
+        Me.Controls.Add(Me.proMain)
         Me.Controls.Add(Me.txtMain)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -59,4 +78,5 @@ Partial Class DeployForm
     End Sub
 
     Friend WithEvents txtMain As TextBox
+    Friend WithEvents proMain As DevComponents.DotNetBar.Controls.ProgressBarX
 End Class

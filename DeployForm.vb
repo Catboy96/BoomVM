@@ -49,6 +49,7 @@ Public Class DeployForm
             Loggin("启动SFTP连接...")
             sftpc = New SftpClient(IP, Port, User, Passwd)
             Loggin("完成" & vbCrLf)
+            proMain.Value = 5
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -60,6 +61,7 @@ Public Class DeployForm
             Loggin("正在连接至SFTP服务器...")
             sftpc.Connect()
             Loggin("完成" & vbCrLf)
+            proMain.Value = 10
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -72,15 +74,18 @@ Public Class DeployForm
                 Loggin("切换至/root/boomvm...")
                 sftpc.ChangeDirectory("/root/boomvm")
                 Loggin("完成" & vbCrLf)
+                proMain.Value = 20
             Catch ex0 As Exception
                 Loggin("失败：" & ex0.Message & vbCrLf)
                 Try
                     Loggin("创建目录/root/boomvm...")
                     sftpc.CreateDirectory("/root/boomvm")
                     Loggin("完成" & vbCrLf)
+                    proMain.Value = 15
                     Loggin("切换至/root/boomvm...")
                     sftpc.ChangeDirectory("/root/boomvm")
                     Loggin("完成" & vbCrLf)
+                    proMain.Value = 20
                 Catch ex1 As Exception
                     Loggin("失败：" & ex1.Message & vbCrLf)
                     Exit Sub
@@ -90,6 +95,7 @@ Public Class DeployForm
             Dim stm As New IO.FileStream(Application.StartupPath & "\Temp\install.sh", IO.FileMode.Open)
             sftpc.UploadFile(stm, "/root/boomvm/install.sh", True)
             Loggin("完成" & vbCrLf)
+            proMain.Value = 50
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -102,6 +108,7 @@ Public Class DeployForm
             Loggin("启动SSH连接...")
             sshc = New SshClient(IP, Port, User, Passwd)
             Loggin("完成" & vbCrLf)
+            proMain.Value = 55
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -113,6 +120,7 @@ Public Class DeployForm
             Loggin("正在连接至服务器...")
             sshc.Connect()
             Loggin("完成" & vbCrLf)
+            proMain.Value = 60
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -126,6 +134,7 @@ Public Class DeployForm
             cmd = sshc.CreateCommand("chmod +x /root/boomvm/install.sh")
             cmd.Execute()
             Loggin("完成" & vbCrLf)
+            proMain.Value = 65
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
             Exit Sub
@@ -137,9 +146,11 @@ Public Class DeployForm
             cmd = sshc.CreateCommand("bash /root/boomvm/install.sh" & Param)
             Dim result As String = cmd.Execute()
             Loggin("完成" & vbCrLf)
+            proMain.Value = 100
             Loggin(vbCrLf)
             Loggin("部署结束，详细信息将显示在下方。" & vbCrLf)
             Loggin(vbCrLf & "====================" & vbCrLf)
+            result.Replace(vbLf, vbCrLf)
             txtMain.AppendText(result)
         Catch ex As Exception
             Loggin("失败：" & ex.Message & vbCrLf)
