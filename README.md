@@ -34,5 +34,5 @@ Making BOM Package: https://www.boomvm.com/20
 * .Net 4.0
 
 ## License  
-MIT  
+GNU Public License
 
