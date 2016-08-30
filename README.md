@@ -1,6 +1,10 @@
 # BoomVM
 One-Key Server/VPS Application Package Deployment Tool
 
+## Download **BoomVM Fastoon**  
+BoomVM Fastoon is the first release of BoomVM, now READY TO USE.  
+Download Now: https://github.com/CYRO4S/BoomVM/releases  
+
 ## Readme in other languages  
 简体中文: https://github.com/CYRO4S/BoomVM//blob/master/README-zh_CN.md
 
