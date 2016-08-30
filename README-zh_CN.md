@@ -1,5 +1,9 @@
 # BoomVM
-一键服务器/VPS程序包部署程序
+一键服务器/VPS程序包部署程序  
+  
+# 下载 BoomVM Fastoon  
+BoomVM Fastoon 是BoomVM的首个发布版本，现已准备好使用。  
+立即下载：https://github.com/CYRO4S/BoomVM/releases  
 
 ## 其他语言的README文件  
 English: https://github.com/CYRO4S/BoomVM
