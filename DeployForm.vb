@@ -32,13 +32,21 @@ Public Class DeployForm
 
     Private Sub Processor()
         'Get Params If Needed
+        Dim strInput As String
         If IO.File.Exists(Application.StartupPath & "\Temp\param") = True Then
             Dim sr As New IO.StreamReader(Application.StartupPath & "\Temp\param", System.Text.Encoding.UTF8)
             Dim vars As String
             Do
                 vars = sr.ReadLine()
                 If "" = vars Then Exit Do
-                Param = Param & " " & InputBox(vars)
+InputParam:
+                strInput = InputBox(vars)
+                If "" <> strInput Then
+                    Param = Param & " " & InputBox(vars)
+                Else
+                    MessageBox.Show("输入不能为空。", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    GoTo InputParam
+                End If
             Loop
         End If
 

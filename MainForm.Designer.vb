@@ -354,7 +354,7 @@ Partial Class MainForm
         Me.MinimumSize = New System.Drawing.Size(448, 212)
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BoomVM"
+        Me.Text = "BoomVM Fastoon"
         CType(Me.txtIP, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBOM, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("BoomVM")>
 <Assembly: AssemblyDescription("BoomVM Server Package Installer")>
 <Assembly: AssemblyCompany("CYRO4S")>
-<Assembly: AssemblyProduct("BoomVM")>
+<Assembly: AssemblyProduct("BoomVM Fastoon")>
 <Assembly: AssemblyCopyright("©2016 CYRO4S")>
 <Assembly: AssemblyTrademark("BoomVM")>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 方法是按如下所示使用“*”: :
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.2.0")>
-<Assembly: AssemblyFileVersion("1.0.2.0")>
+<Assembly: AssemblyVersion("1.0.3.0")>
+<Assembly: AssemblyFileVersion("1.0.3.0")>
