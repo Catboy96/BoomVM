@@ -158,11 +158,17 @@
     <EmbeddedResource Include="AboutForm.resx">
       <DependentUpon>AboutForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeployForm.en.resx">
+      <DependentUpon>DeployForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeployForm.resx">
       <DependentUpon>DeployForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoForm.resx">
       <DependentUpon>InfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>

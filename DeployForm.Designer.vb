@@ -29,47 +29,33 @@ Partial Class DeployForm
         '
         'txtMain
         '
-        Me.txtMain.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        resources.ApplyResources(Me.txtMain, "txtMain")
         Me.txtMain.BackColor = System.Drawing.Color.Black
         Me.txtMain.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtMain.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMain.ForeColor = System.Drawing.Color.White
-        Me.txtMain.Location = New System.Drawing.Point(0, 0)
-        Me.txtMain.Multiline = True
         Me.txtMain.Name = "txtMain"
         Me.txtMain.ReadOnly = True
-        Me.txtMain.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtMain.Size = New System.Drawing.Size(653, 407)
-        Me.txtMain.TabIndex = 0
         '
         'proMain
         '
+        resources.ApplyResources(Me.proMain, "proMain")
+        Me.proMain.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         '
         '
         '
         Me.proMain.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.proMain.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.proMain.Location = New System.Drawing.Point(0, 413)
+        Me.proMain.ForeColor = System.Drawing.Color.White
         Me.proMain.Name = "proMain"
-        Me.proMain.Size = New System.Drawing.Size(653, 23)
         Me.proMain.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.proMain.TabIndex = 2
         '
         'DeployForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(653, 436)
         Me.Controls.Add(Me.proMain)
         Me.Controls.Add(Me.txtMain)
         Me.DoubleBuffered = True
-        Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "DeployForm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "²¿Êð½ø³Ì"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

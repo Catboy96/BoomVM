@@ -18,7 +18,11 @@ Public Class MainForm
         End If
 
         'Unzip the file
-        UnZip(ofdMain.FileName)
+        Try
+            UnZip(ofdMain.FileName)
+        Catch ex As Exception
+            MessageBox.Show("选定的文件不是有效的BoomVM包", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End Try
 
         'If exists, Load the Picture
         If IO.File.Exists(Application.StartupPath & "\Temp\logo.png") Then
@@ -28,6 +32,10 @@ Public Class MainForm
         End If
 
         'Load the Title
+        If Not IO.File.Exists(Application.StartupPath & "\Temp\packname") Then
+            MessageBox.Show("选定的文件不是有效的BoomVM包", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Exit Sub
+        End If
         Dim sr As New IO.StreamReader(Application.StartupPath & "\Temp\packname", System.Text.Encoding.UTF8)
         txtBOM.Text = sr.ReadToEnd
         sr.Close()

@@ -60,111 +60,71 @@ Partial Class MainForm
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
+        resources.ApplyResources(Me.Label1, "Label1")
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("微软雅黑", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(88, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(253, 36)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "欢迎使用BoomVM"
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
+        resources.ApplyResources(Me.Label2, "Label2")
         Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(90, 57)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(333, 23)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "只需几个步骤，即可部署应用到你的服务器"
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
+        resources.ApplyResources(Me.Label3, "Label3")
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Label3.Font = New System.Drawing.Font("微软雅黑", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(119, 109)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(192, 31)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "选择一个BOM包"
         '
         'txtBOM
         '
-        Me.txtBOM.AutoSize = True
+        resources.ApplyResources(Me.txtBOM, "txtBOM")
         Me.txtBOM.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.txtBOM.Font = New System.Drawing.Font("微软雅黑", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.txtBOM.ForeColor = System.Drawing.Color.White
-        Me.txtBOM.Location = New System.Drawing.Point(128, 183)
         Me.txtBOM.Name = "txtBOM"
-        Me.txtBOM.Size = New System.Drawing.Size(90, 32)
-        Me.txtBOM.TabIndex = 5
-        Me.txtBOM.Text = "未选定"
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(134, 234)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(69, 42)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "选择"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Label5
         '
-        Me.Label5.AutoSize = True
+        resources.ApplyResources(Me.Label5, "Label5")
         Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Label5.Font = New System.Drawing.Font("微软雅黑", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(124, 311)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(182, 31)
-        Me.Label5.TabIndex = 7
-        Me.Label5.Text = "提供服务器信息"
         '
         'Label6
         '
-        Me.Label6.AutoSize = True
+        resources.ApplyResources(Me.Label6, "Label6")
         Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Label6.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(106, 345)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(219, 20)
-        Me.Label6.TabIndex = 9
-        Me.Label6.Text = "填写信息或选择服务器配置文件"
         '
         'Label7
         '
-        Me.Label7.AutoSize = True
+        resources.ApplyResources(Me.Label7, "Label7")
         Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(26, 393)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(59, 23)
-        Me.Label7.TabIndex = 11
-        Me.Label7.Text = "IP地址"
         '
         'txtPort
         '
+        resources.ApplyResources(Me.txtPort, "txtPort")
         Me.txtPort.BackColor = System.Drawing.Color.Black
         Me.txtPort.ForeColor = System.Drawing.Color.White
-        Me.txtPort.Location = New System.Drawing.Point(122, 426)
         Me.txtPort.Name = "txtPort"
-        Me.txtPort.Size = New System.Drawing.Size(283, 30)
-        Me.txtPort.TabIndex = 10
-        Me.txtPort.Text = "22"
-        Me.txtPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtIP
         '
+        resources.ApplyResources(Me.txtIP, "txtIP")
         Me.txtIP.AutoOverwrite = True
         Me.txtIP.BackColor = System.Drawing.Color.Black
         '
@@ -172,157 +132,131 @@ Partial Class MainForm
         '
         Me.txtIP.BackgroundStyle.Class = "DateTimeInputBackground"
         Me.txtIP.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtIP.ButtonClear.DisplayPosition = CType(resources.GetObject("txtIP.ButtonClear.DisplayPosition"), Integer)
+        Me.txtIP.ButtonClear.Image = CType(resources.GetObject("txtIP.ButtonClear.Image"), System.Drawing.Image)
+        Me.txtIP.ButtonClear.Text = resources.GetString("txtIP.ButtonClear.Text")
+        Me.txtIP.ButtonClear.Tooltip = resources.GetString("txtIP.ButtonClear.Tooltip")
+        Me.txtIP.ButtonCustom.DisplayPosition = CType(resources.GetObject("txtIP.ButtonCustom.DisplayPosition"), Integer)
+        Me.txtIP.ButtonCustom.Image = CType(resources.GetObject("txtIP.ButtonCustom.Image"), System.Drawing.Image)
+        Me.txtIP.ButtonCustom.Text = resources.GetString("txtIP.ButtonCustom.Text")
+        Me.txtIP.ButtonCustom.Tooltip = resources.GetString("txtIP.ButtonCustom.Tooltip")
+        Me.txtIP.ButtonCustom2.DisplayPosition = CType(resources.GetObject("txtIP.ButtonCustom2.DisplayPosition"), Integer)
+        Me.txtIP.ButtonCustom2.Image = CType(resources.GetObject("txtIP.ButtonCustom2.Image"), System.Drawing.Image)
+        Me.txtIP.ButtonCustom2.Text = resources.GetString("txtIP.ButtonCustom2.Text")
+        Me.txtIP.ButtonCustom2.Tooltip = resources.GetString("txtIP.ButtonCustom2.Tooltip")
+        Me.txtIP.ButtonDropDown.DisplayPosition = CType(resources.GetObject("txtIP.ButtonDropDown.DisplayPosition"), Integer)
+        Me.txtIP.ButtonDropDown.Image = CType(resources.GetObject("txtIP.ButtonDropDown.Image"), System.Drawing.Image)
+        Me.txtIP.ButtonDropDown.Text = resources.GetString("txtIP.ButtonDropDown.Text")
+        Me.txtIP.ButtonDropDown.Tooltip = resources.GetString("txtIP.ButtonDropDown.Tooltip")
+        Me.txtIP.ButtonFreeText.DisplayPosition = CType(resources.GetObject("txtIP.ButtonFreeText.DisplayPosition"), Integer)
+        Me.txtIP.ButtonFreeText.Image = CType(resources.GetObject("txtIP.ButtonFreeText.Image"), System.Drawing.Image)
         Me.txtIP.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2
+        Me.txtIP.ButtonFreeText.Text = resources.GetString("txtIP.ButtonFreeText.Text")
+        Me.txtIP.ButtonFreeText.Tooltip = resources.GetString("txtIP.ButtonFreeText.Tooltip")
         Me.txtIP.ButtonFreeText.Visible = True
         Me.txtIP.ForeColor = System.Drawing.Color.White
-        Me.txtIP.Location = New System.Drawing.Point(122, 390)
         Me.txtIP.Name = "txtIP"
-        Me.txtIP.Size = New System.Drawing.Size(282, 30)
         Me.txtIP.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.txtIP.TabIndex = 12
         Me.txtIP.Value = "0.0.0.0"
         '
         'Label8
         '
-        Me.Label8.AutoSize = True
+        resources.ApplyResources(Me.Label8, "Label8")
         Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(26, 429)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(77, 23)
-        Me.Label8.TabIndex = 13
-        Me.Label8.Text = "SSH端口"
         '
         'Label9
         '
-        Me.Label9.AutoSize = True
+        resources.ApplyResources(Me.Label9, "Label9")
         Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(26, 463)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(61, 23)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "用户名"
         '
         'txtUser
         '
+        resources.ApplyResources(Me.txtUser, "txtUser")
         Me.txtUser.BackColor = System.Drawing.Color.Black
         Me.txtUser.ForeColor = System.Drawing.Color.White
-        Me.txtUser.Location = New System.Drawing.Point(122, 460)
         Me.txtUser.Name = "txtUser"
-        Me.txtUser.Size = New System.Drawing.Size(283, 30)
-        Me.txtUser.TabIndex = 10
-        Me.txtUser.Text = "root"
-        Me.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
         '
-        Me.Label10.AutoSize = True
+        resources.ApplyResources(Me.Label10, "Label10")
         Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(26, 496)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(44, 23)
-        Me.Label10.TabIndex = 13
-        Me.Label10.Text = "密码"
         '
         'txtPasswd
         '
+        resources.ApplyResources(Me.txtPasswd, "txtPasswd")
         Me.txtPasswd.BackColor = System.Drawing.Color.Black
         Me.txtPasswd.ForeColor = System.Drawing.Color.White
-        Me.txtPasswd.Location = New System.Drawing.Point(122, 493)
         Me.txtPasswd.Name = "txtPasswd"
-        Me.txtPasswd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
-        Me.txtPasswd.Size = New System.Drawing.Size(283, 30)
-        Me.txtPasswd.TabIndex = 10
-        Me.txtPasswd.Text = "123456"
-        Me.txtPasswd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.Button2, "Button2")
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(30, 529)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(173, 42)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "从文件载入"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.Button3, "Button3")
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(225, 529)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(180, 42)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "保存到文件"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.Green
-        Me.Button4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("微软雅黑", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        resources.ApplyResources(Me.Button4, "Button4")
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(0, 591)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(430, 62)
-        Me.Button4.TabIndex = 16
-        Me.Button4.Text = "部署"
         Me.Button4.UseVisualStyleBackColor = False
+        '
+        'ofdMain
+        '
+        resources.ApplyResources(Me.ofdMain, "ofdMain")
         '
         'btnInfo
         '
-        Me.btnInfo.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnInfo.Enabled = False
-        Me.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.btnInfo, "btnInfo")
+        Me.btnInfo.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.btnInfo.ForeColor = System.Drawing.Color.White
-        Me.btnInfo.Location = New System.Drawing.Point(209, 234)
         Me.btnInfo.Name = "btnInfo"
-        Me.btnInfo.Size = New System.Drawing.Size(196, 42)
-        Me.btnInfo.TabIndex = 17
-        Me.btnInfo.Text = "查看详细信息"
         Me.btnInfo.UseVisualStyleBackColor = False
         '
         'sfdMain
         '
-        Me.sfdMain.Filter = "BoomVM Server Info|*.svr"
+        resources.ApplyResources(Me.sfdMain, "sfdMain")
         '
         'picBOM
         '
+        resources.ApplyResources(Me.picBOM, "picBOM")
         Me.picBOM.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.picBOM.ForeColor = System.Drawing.Color.White
         Me.picBOM.Image = Global.BoomVM.My.Resources.Resources.FUS_004
-        Me.picBOM.Location = New System.Drawing.Point(12, 167)
         Me.picBOM.Name = "picBOM"
-        Me.picBOM.Size = New System.Drawing.Size(110, 110)
-        Me.picBOM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.picBOM.TabIndex = 3
         Me.picBOM.TabStop = False
         '
         'PictureBox1
         '
+        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.ForeColor = System.Drawing.Color.White
         Me.PictureBox1.Image = Global.BoomVM.My.Resources.Resources.BoomVM_004
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(70, 68)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 23.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(430, 653)
         Me.Controls.Add(Me.btnInfo)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -345,16 +279,8 @@ Partial Class MainForm
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.DoubleBuffered = True
-        Me.Font = New System.Drawing.Font("微软雅黑", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForeColor = System.Drawing.Color.White
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(448, 700)
-        Me.MinimumSize = New System.Drawing.Size(448, 212)
         Me.Name = "MainForm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BoomVM Fastoon"
         CType(Me.txtIP, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBOM, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -384,7 +310,7 @@ Partial Class MainForm
     Friend WithEvents btnInfo As Button
     Friend WithEvents sfdMain As SaveFileDialog
     Public WithEvents txtPort As TextBox
-    Public WithEvents txtIP As DevComponents.Editors.IpAddressInput
     Public WithEvents txtUser As TextBox
     Public WithEvents txtPasswd As TextBox
+    Public WithEvents txtIP As DevComponents.Editors.IpAddressInput
 End Class
