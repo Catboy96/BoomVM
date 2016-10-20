@@ -1,5 +1,9 @@
 # BoomVM
-One-Key Server/VPS Application Package Deployment Tool
+One-Key Server/VPS Application Package Deployment Tool  
+  
+## This is BoomVM Fastoon
+BoomVM is the 1st generation of BoomVM. For 2nd generation - BoomVM Veldin, Visit:  
+https://github.com/CYRO4S/BoomVM_Veldin
 
 ## Download **BoomVM Fastoon**  
 BoomVM Fastoon is the first release of BoomVM, now READY TO USE.  
