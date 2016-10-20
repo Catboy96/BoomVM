@@ -1,7 +1,11 @@
 # BoomVM
 一键服务器/VPS程序包部署程序  
   
-# 下载 BoomVM Fastoon  
+# 这是BoomVM Fastoon  
+BoomVM Fastoon是第一代BoomVM。如需第二代BoomVM — BoomVM Veldin，访问：  
+https://github.com/CYRO4S/BoomVM_Veldin
+  
+#下载 BoomVM Fastoon  
 BoomVM Fastoon 是BoomVM的首个发布版本，现已准备好使用。  
 立即下载：https://github.com/CYRO4S/BoomVM/releases  
 
